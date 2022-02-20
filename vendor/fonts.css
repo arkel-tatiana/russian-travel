@@ -17,5 +17,5 @@
          url(../vendor/Inter-ExtraBold.woff2) format('woff2'),
          url(../vendor/Inter-Bold.ttf) format('truetype');
     font-family:'Inter';
-    font-weight: ExtraBold;
+    font-weight: extrabold;
 }
