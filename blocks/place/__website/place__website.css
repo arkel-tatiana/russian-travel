@@ -1,0 +1,9 @@
+.place__website{
+  width: 46.34%;
+  display: flex;
+  flex-direction:column;
+  grid-area: place__website;
+  align-self: end;
+  margin: 0 0 48px 0;
+  text-decoration-line: none;
+}

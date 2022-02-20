@@ -1,0 +1,23 @@
+.places{
+  margin: 7.19% auto 0 auto;
+  width: 76.875%;
+}
+@media (max-width: 1024px){
+  .places{
+    width: 90.6%;
+    margin: 0 4.69% 0 calc(4.69% - 1px);
+    padding: 0;
+  }
+}
+@media (max-width: 768px){
+  .places{
+    width: 93.75%;
+    margin: 0 3.125% 0 3.125%;
+  }
+}
+@media (max-width: 320px){
+  .places{
+    width: 100%;
+    margin: 0;
+  }
+}

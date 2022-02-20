@@ -1,0 +1,35 @@
+.lead__caption{
+  margin-top: calc(0.813% - 2px);
+  margin-bottom: 0;
+  font-family: inter;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 1.4;
+  text-align:start;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  width: 16.057%;
+  margin-left: 0;
+  align-self: start;  
+}  
+@media (max-width: 1024px){
+  .lead__caption{
+    margin-top: 0.862%;
+    width: 17%;
+  }
+}
+@media (max-width: 768px){
+  .lead__caption{
+    margin-top: 1.04%;
+    margin-left: 3.125%;
+    width: 20.57%;
+  }
+}
+@media (max-width: 320px){
+  .lead__caption{
+    margin-top: 2.5%;
+    margin-left: 5%;
+    width: 49.38%;
+    letter-spacing: 1.4px;
+  }
+}

@@ -1,0 +1,27 @@
+.footer{
+  width: 92.5%;
+  margin: calc(7.2% + 1px) auto 1.9% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}  
+@media (max-width: 1024px){
+  .footer{
+    width: 90.6%;
+    margin: calc(8.98% - 1px) auto 2.34% auto;
+  }
+}
+@media (max-width: 768px){
+  .footer{
+    width: 93.75%;
+    margin: 11.46% auto 3.125% auto;
+  }
+}
+@media (max-width: 320px){
+  .footer{
+    width: 58.13%;
+    margin: 20% 0 7.5% 5%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
