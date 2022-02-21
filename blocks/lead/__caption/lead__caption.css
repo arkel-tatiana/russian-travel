@@ -8,28 +8,28 @@
   text-align:start;
   letter-spacing: 1.4px;
   text-transform: uppercase;
-  width: 16.057%;
+  max-width: 16.057%;
   margin-left: 0;
   align-self: start;  
 }  
 @media (max-width: 1024px){
   .lead__caption{
     margin-top: 0.862%;
-    width: 17%;
+    max-width: 17%;
   }
 }
 @media (max-width: 768px){
   .lead__caption{
     margin-top: 1.04%;
     margin-left: 3.125%;
-    width: 20.57%;
+    max-width: 20.57%;
   }
 }
 @media (max-width: 320px){
   .lead__caption{
     margin-top: 2.5%;
     margin-left: 5%;
-    width: 49.38%;
+    max-width: 49.38%;
     letter-spacing: 1.4px;
   }
 }

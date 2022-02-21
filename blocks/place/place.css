@@ -1,7 +1,7 @@
 .place{
-  width: 100%;
+  max-width: 100%;
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 46.75% 1fr;
   grid-template-areas:
     "place__title place__website"
     "place__image place__paragraph1"
@@ -17,7 +17,7 @@
 @media (max-width: 1024px){
   .place{
     column-gap: 32px;
-    grid-template-columns: 440px 1fr;
+    grid-template-columns: 47.41% 1fr;
     margin: 8.62% 0 0 0;
   }
   .place:nth-of-type(1){
@@ -27,7 +27,7 @@
 @media (max-width: 768px){
   .place{
     column-gap: 28px;
-    grid-template-columns: 340px 1fr;
+    grid-template-columns: 47.2% 1fr;
     margin: 10.14% 0 0 0;
   }
   .place:nth-of-type(1){

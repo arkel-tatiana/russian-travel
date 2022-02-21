@@ -3,27 +3,27 @@
   margin-left: 0;
   margin-right: 0;
   padding: 0 11.56% 0 11.56%;
-  width: 76.875%;
+  max-width: 76.875%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }  
 @media (max-width: 1024px){
   .lead{
-    width: 90.6%;
+    max-width: 90.6%;
     margin: 4.69% 4.69% 0 4.69%;
     padding: 0;
   }
 }
 @media (max-width: 768px){
   .lead{
-    width: 100%;
+    max-width: 100%;
     margin: 6.25% 0 0 0;
   }
 }
 @media (max-width: 320px){
   .lead{
-    width: 100%;
+    max-width: 100%;
     margin: 15% 0 0 0;
   }
 }
