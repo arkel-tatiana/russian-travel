@@ -3,30 +3,33 @@
   font-weight: 900;
   line-height: 1.04;
   text-align: center;
-  width: 73.17%;
+  max-width: 720px;
   margin-top: 0;
   margin-bottom: 3.252%;
   margin-left: 1px;
+  overflow-wrap: break-word;
 }
 @media (max-width: 1024px){
   .lead__title{
-    width: 77.59%;
     margin-bottom: 3.45%;
  }
 }
 @media (max-width: 768px){
   .lead__title{
-    width: 93.75%;
     margin-bottom: 4.17%;
   }
 }
 @media (max-width: 320px){
   .lead__title{
     font-size: 40px;
-    font-weight: 900;
     line-height: 1.1;
-    width: 90%;
+    max-width: 288px;
     margin-bottom: 5.55%;
     margin-left: 0;
+  }
+}
+@media (max-width: 287px){
+  .lead__title{
+    max-width: 100%;
   }
 }

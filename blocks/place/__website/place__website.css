@@ -1,9 +1,16 @@
 .place__website{
-  width: 46.34%;
+  max-width: 100%;
   display: flex;
   flex-direction:column;
   grid-area: place__website;
   align-self: end;
   margin: 0 0 48px 0;
   text-decoration-line: none;
+}
+@media (max-width: 320px){
+  .place__website{
+    margin-bottom: 7px;
+    margin-left: 5%;
+    max-width: 90%;
+  }
 }

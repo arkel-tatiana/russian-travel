@@ -1,8 +1,0 @@
-.place__title_str{
-    letter-spacing:normal;
-}
-@media (max-width: 768px){
-    .place__title_str{
-        letter-spacing: 1px;
-    }
-}
