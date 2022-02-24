@@ -8,8 +8,7 @@
     "place__image place__paragraph2"
     ". place__paragraph3"
     ". place__paragraph4"
-    ". place__paragraph5"
-    ;
+    ". place__paragraph5";
 
   column-gap: 40px;
   grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content) 1fr minmax(min-content, max-content) minmax(min-content, max-content) minmax(min-content, max-content);
