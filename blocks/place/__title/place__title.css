@@ -9,6 +9,11 @@
   grid-area: place__title;
   text-align: start;
 }
+@media (max-width: 800px){
+  .place__title{
+    font-size: 60px;
+  }
+}
 @media (max-width: 768px){
   .place__title{
     max-width: 97%;
@@ -19,6 +24,11 @@
 @media (max-width: 450px){
   .place__title{
     font-size: 38px;
+  }
+}
+@media (max-width: 400px){
+  .place__title{
+    font-size: 30px;
   }
 }
 @media (max-width: 320px){

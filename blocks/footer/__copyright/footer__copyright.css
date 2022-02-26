@@ -6,7 +6,7 @@
   letter-spacing: 1px;
   max-width: 186px;
 }
-/*@media (max-width: 1024px){
+@media (max-width: 1024px){
   .footer__copyright{
     max-width: 20.04%;
   }
@@ -15,9 +15,10 @@
   .footer__copyright{
     max-width: 25.8%;
   }
-}*/
+}
 @media (max-width: 320px){
   .footer__copyright{
     margin-top: 48px;
+    max-width: 100%;
   }
 }
