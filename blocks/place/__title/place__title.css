@@ -11,13 +11,19 @@
 }
 @media (max-width: 768px){
   .place__title{
+    max-width: 97%;
     font-size: 42px;
     margin-bottom: 50px;
   }
 }
+@media (max-width: 450px){
+  .place__title{
+    font-size: 38px;
+  }
+}
 @media (max-width: 320px){
   .place__title{
-    margin-bottom: 7px;
+    margin: 0;
     font-size: 32px;
     line-height: 1.09;
     margin-left: 5%;

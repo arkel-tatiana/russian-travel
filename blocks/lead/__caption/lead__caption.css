@@ -17,13 +17,13 @@
 }
 @media (max-width: 768px){
   .lead__caption{
-    margin-top: 1.04%;
+    margin-top: 6px;
     margin-left: 3.125%;
   }
 }
 @media (max-width: 320px){
   .lead__caption{
-    margin-top: 2.5%;
+    margin-top: calc(2.5% - 3px);
     margin-left: 5%;
   }
 }

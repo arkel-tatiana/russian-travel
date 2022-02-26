@@ -9,7 +9,7 @@
 }
 @media (max-width: 320px){
   .place__website{
-    margin-bottom: 7px;
+    margin-bottom: 0;
     margin-left: 5%;
     max-width: 90%;
   }

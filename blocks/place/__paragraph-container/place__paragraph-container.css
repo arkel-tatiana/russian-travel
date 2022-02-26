@@ -1,0 +1,13 @@
+.place__paragraph-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 0;
+    grid-area: place__paragraph;
+}
+@media (max-width: 320px){
+    .place__paragraph-container{
+      max-width: 90%;
+      margin: 0 5% 0 5%;
+    }
+  }
