@@ -12,5 +12,8 @@
 *  видах устройств. Отдельного внимания заслуживает блок «До Байкала на «собаках».
 *  В нем реализована нетривиальная анимация при наведении курсора на блок.
 
+### Ссылка на сайт
+*  [ссылка на сайт](https://arkel-tatiana.github.io/russian-travel/)
+
 ### Ссылка на проект
-*  [ссылка на проект](https://arkel-tatiana.github.io/russian-travel/)
+*  [ссылка на проект](https://github.com/arkel-tatiana/russian-travel.git)
